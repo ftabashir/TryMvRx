@@ -26,7 +26,7 @@ class MainViewModel @AssistedInject constructor(
             if (result is Result.Success) {
                 setState {
                     val newCategories = categories.withNextData(result.data ?: emptyList())
-                    state.copy(categories = newCategories)
+                    copy(categories = newCategories)
                 }
             }
 
