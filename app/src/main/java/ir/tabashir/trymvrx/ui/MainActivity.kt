@@ -1,7 +1,8 @@
-package ir.tabashir.trymvrx
+package ir.tabashir.trymvrx.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ir.tabashir.trymvrx.R
 
 class MainActivity : AppCompatActivity() {
 
